@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body:hover img{
+    transition: all .3s ease;
+    transform: scale(1.1);
+}
+.animationBanner{
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease;
+    position: absolute;
+    z-index: 99;
+    background-color: rgb(0, 0, 0);
+}
+.animationBanner img{
+    margin-left: 32%;
+    margin-top: 6.5%;
+}
+body:hover .animation{
+    transform: none;
+}
+.modal{
+    margin-top: -2.5%;
+    transition: all .5s ease;
+    display: none;
+}
+.modal h5{
+    color: rgba(248, 211, 0, 0.952);
+    font-size: 1.7rem;
+}
+.modal p{
+    font-size: 1.3rem;
+    color: red;
+}
+.forBanner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.forBanner img{
+    position: absolute;
+    width: 100%;
+    /* margin-top: -3.5%; */
+}
+.forBanner .malibu2{
+    height: 100%;
+    display: none;
+}
+.forBanner .gentra{
+    height: 100%;
+    display: none;
+}
+.forBanner .captiva{
+    margin-top: -10%;
+}
+.cars{
+    transition: all .4s ease;
+    cursor: pointer;
+    display: none;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+.items{
+    margin-top: -3%;
+    margin-left: 35%;
+    position: relative;
+}
+.title{
+    text-transform: capitalize;
+    color: rgb(184, 0, 0);
+    font-size: 3rem;
+    margin-left: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.uzbekistan{
+    background: linear-gradient(180deg, #158BCF 32%, #fff 40%, #fff 50%, #39B323 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.uzb{
+    color: rgb(0, 67, 190);
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 3.3%;
+    font-weight: 500;
+}
+.searcher{
+    width: 50%;
+    outline: none;
+    border: 1px solid rgba(104, 104, 104, 0.383);
+    padding: 0.7rem 1.5rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+}
+.searcher::placeholder{
+    color: rgb(144, 144, 144);
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.searcher:hover img{
+    transform: scale(-1.1);
+}
+.items{
+    padding-top: 23%;
+    z-index: 98;
+}
+.searchBtn{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 19.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.searchBtn i{
+    font-size: 1rem;
+    cursor: pointer;
+}
+/* End Searcher section  */
+
+ /* Images section   */
+
+.optionsBtn{
+    width: 10rem;
+    height: 2rem;
+    overflow: hidden;
+    transition: all .4s ease;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(180deg, #158BCF 20%, #fff 40%,#fff 55%, #39B323 90%);
+    border: none;
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 7%;
+}
+        
+.options{
+    text-align: justify;
+    width: 90%;
+    margin-left: 5%;
+}
+.options h1{
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.options h1:nth-child(2n+1){
+    color: rgb(255, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.options h1:nth-child(2n){
+    color: gold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ /* End Images section   */
+
